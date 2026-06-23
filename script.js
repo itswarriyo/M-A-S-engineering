@@ -30,3 +30,51 @@ function hideNav()
     let navList = document.getElementById("navList");
     navList.classList.remove("show-Nav")
 }
+
+
+// Form hanlde  
+
+let formenquery = document.getElementById("myForm");
+
+formenquery.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    let formData = new FormData(formenquery);
+
+    let formdata = {
+        name: formData.get("name"),
+        phone: formData.get("email"),
+        date: formData.get("phone"),
+        message: formData.get("services")
+    };
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const phoneRegex = /^(?:\+92|92|0)3\d{9}$/;  
+  
+    let phone = document.getElementById("phone").value.trim();
+
+    if (!phoneRegex.test(phone)) {
+        e.preventDefault();
+        alert("Invalid Mobile No!");
+    }
+        else {
+
+        axios.post("http://localhost:8006/api/enquery/insert", formdata)
+            .then((res) => {
+         alert("Your information is send now to M-A-S Engineering structure.✅");
+
+                console.log(res.data);
+
+                formenquery.reset();
+            })
+            .catch((err) => {
+                console.log(err);
+                alert("Error saving data!");
+            });
+
+        return true;
+        }
+
+});
+
+//<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
