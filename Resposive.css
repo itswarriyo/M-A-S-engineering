@@ -41,6 +41,9 @@
     #homeSection #contentSection footer ul li h1 {
         font-size: 18px;
     }
+     #homeSection #contentSection footer ul li h1:hover {
+      transform: translateY(-3px);
+  }
 
     #ourMain #ourSection {
         display: grid;
@@ -486,6 +489,11 @@ padding: 3px 10px;
     #faqsMain #faqsContent div details summary {
         font-size: 13px;
     }
+
+    #contactMain #contactCont article:nth-of-type(1) div a
+{
+    font-size: 12px;
+}  
 
 }
 
