@@ -43,9 +43,9 @@ formenquery.addEventListener("submit", function (e) {
 
     let formdata = {
         name: formData.get("name"),
-        phone: formData.get("email"),
-        date: formData.get("phone"),
-        message: formData.get("services")
+        email: formData.get("email"),
+        phone: formData.get("phone"),
+        services: formData.get("services")
     };
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
