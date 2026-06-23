@@ -1,0 +1,559 @@
+@media (min-width:1090px) {
+    #navBar {
+        display: none;
+    }
+}
+
+
+
+@media (max-width:1200px) {
+
+    #homeSection {
+        gap: 10px;
+    }
+
+    #homeSection #imgSection img {
+        width: 300px;
+    }
+
+    #homeSection #contentSection {
+        padding: 20px;
+        margin-left: -50px;
+    }
+
+    #homeSection #contentSection h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    #homeSection #contentSection p {
+        font-size: 15px;
+    }
+
+    #homeSection #contentSection footer ul {
+        gap: 7px;
+    }
+
+    #homeSection #contentSection footer ul li h3 {
+        font-size: 10px;
+    }
+
+    #homeSection #contentSection footer ul li h1 {
+        font-size: 18px;
+    }
+
+    #ourMain #ourSection {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    #contactMain>p {
+        font-size: 16px;
+        padding: 20px;
+        text-align: center;
+        margin-top: -3px;
+    }
+
+
+}
+
+@media (max-width:1090px) {
+    #headerSection nav ul:nth-of-type(1) {
+        display: none;
+    }
+
+    #navBar {
+        background-color: white;
+        padding: 5px 7px;
+        border-radius: 5px;
+    }
+
+    #navBar:hover {
+        background-color: rgb(209, 209, 209);
+
+    }
+
+    #headerSection nav ul:nth-of-type(1).show-Nav {
+        position: fixed;
+        top: 100px;
+        right: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+
+}
+
+@media (max-width:1050px) {
+
+
+    #homeSection {
+        gap: 10px;
+    }
+
+    #homeSection #imgSection img {
+        width: 240px;
+    }
+
+    #homeSection #contentSection {
+        padding: 10px;
+        margin-left: -30px;
+        padding-left: 20px;
+    }
+
+    #homeSection #contentSection h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #homeSection #contentSection p {
+        font-size: 12px;
+    }
+
+    #homeSection #contentSection footer ul {
+        gap: 4px;
+    }
+
+    #homeSection #contentSection footer ul li h3 {
+        font-size: 8px;
+    }
+
+    #homeSection #contentSection footer ul li h1 {
+        font-size: 14px;
+    }
+
+    #ourMain>p {
+
+        margin-bottom: -20px;
+
+    }
+
+    #contactMain #contactCont 
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width:915px) {
+
+    #homeSection #imgSection img {
+        width: 240px;
+        margin-left: -100px;
+
+    }
+
+    #homeSection #contentSection {
+        padding: 10px;
+        margin-left: -80px;
+        padding-left: 20px;
+    }
+
+    #aboutMain #contSect {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #aboutMain #contSect div h2 {
+        width: 80%;
+    }
+
+
+    #faqsMain #faqsContent {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+}
+
+@media (max-width:830px) {
+
+    #homeSection #imgSection img {
+        width: 200px;
+        margin-left: -150px;
+    }
+
+    #homeSection #contentSection {
+        padding: 10px;
+        margin-left: -120px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #homeSection #contentSection h1 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    #homeSection #contentSection p {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    #homeSection #contentSection footer ul {
+        gap: 4px;
+    }
+
+    #homeSection #contentSection footer ul li h3 {
+        font-size: 6px;
+    }
+
+    #homeSection #contentSection footer ul li h1 {
+        font-size: 8px;
+    }
+
+    #ourMain>p {
+
+        margin-bottom: -20px;
+
+    }
+
+    #aboutMain>p {
+        font-size: 18px;
+        margin-top: -9px;
+        padding: 20px;
+    }
+
+
+
+}
+
+
+@media (max-width:740px) {
+    #homeSection {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #homeSection #imgSection {
+        margin-top: 180px;
+    }
+
+    #homeSection #contentSection {
+        margin-top: -80px;
+        margin-left: 2%;
+        width: 500px;
+    }
+
+
+    #headerSection nav ul:nth-of-type(1) li:nth-of-type(5) {
+
+        margin-bottom: 7px;
+    }
+
+
+    #headerSection nav ul:nth-of-type(1) li a {
+        font-size: 13px;
+        box-shadow: 0px 0px 7px rgb(177, 177, 177);
+    }
+
+    #ourMain #ourSection #ourCards {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+        width: 90%;
+    }
+
+    #ourMain #ourSection #ourCards div:nth-of-type(1) img {
+        width: 90%;
+        height: 280px;
+        margin-bottom: -20px;
+        margin-left: 3%;
+    }
+
+    #contactMain>p {
+        font-size: 12px;
+        padding: 20px;
+        text-align: center;
+        margin-top: -7px;
+    }
+
+    #contactMain>h1 {
+        font-size: 22px;
+    }
+    
+#footerSection p
+{
+font-size: 15px;
+padding: 7px 20px;
+}
+}
+
+
+
+@media (max-width:630px) {
+    #homeSection #contentSection {
+        margin-top: -80px;
+        margin-left: 1%;
+        width: 400px;
+    }
+}
+
+
+@media (max-width:630px) {
+
+
+    #homeSection #contentSection footer ul li h3 {
+        font-size: 6px;
+    }
+
+    #homeSection #contentSection footer ul li h1 {
+        font-size: 8px;
+        padding: 10px;
+    }
+
+    #ourMain #ourSection #ourCards div:nth-of-type(2) h1 {
+        font-size: 22px;
+    }
+
+    #ourMain #ourSection #ourCards div:nth-of-type(1) img {
+        height: 230px;
+    }
+
+
+    #ourMain #ourSection #ourCards {
+        padding: 10px;
+        padding-top: 20px;
+    }
+
+    #aboutMain #contSect div h2,
+    #aboutMain #contSect div details summary {
+        font-size: 18px;
+    }
+
+    #aboutMain #contSect div h2 {
+        width: 80%;
+    }
+
+
+    #aboutMain #contSect div p {
+        font-size: 16px;
+        color: gray;
+    }
+
+
+    #aboutMain>h1 {
+        font-size: 19px;
+    }
+
+
+    #aboutMain>p {
+        font-size: 15px;
+        margin-top: -17px;
+        padding: 20px;
+    }
+
+    
+#contactMain #contactCont article:nth-of-type(2) form 
+     {
+display: flex;
+flex-direction: column;
+
+   
+}
+
+
+}
+
+@media (max-width:595px) 
+{
+
+#contactMain #contactCont article:nth-of-type(1) div
+{
+    display: grid ;
+    grid-template-columns: 1fr 1fr ;
+    gap: 10px;
+}  
+
+}
+
+
+@media (max-width:525px) {
+
+    #homeSection #contentSection {
+        margin-top: -80px;
+        margin-left: -33px !important;
+        width: 390px !important;
+    }
+
+    #faqsMain>h1 {
+        font-size: 22px;
+    }
+
+    #faqsMain #faqsContent div details summary {
+        font-size: 16px;
+    }
+
+    
+#footerSection p
+{
+font-size: 12px;
+padding: 3px 10px;
+}
+
+}
+
+
+@media (max-width:460px) {
+    #homeSection #contentSection {
+        margin-top: -80px;
+        margin-left: -33px !important;
+        width: 300px !important;
+    }
+
+
+    #homeSection #contentSection footer ul li h3 {
+        font-size: 6px;
+    }
+
+    #homeSection #contentSection footer ul li h1 {
+        font-size: 8px;
+        padding: 8px;
+    }
+
+    #headerSection nav ul:nth-of-type(2) li img {
+        width: 80px;
+        margin-left: -50px;
+    }
+
+    #headerSection nav ul:nth-of-type(2) li a button {
+        font-size: 13px;
+        padding: 4px 7px;
+    }
+
+    #ourMain #ourSection #ourCards div:nth-of-type(2) h1 {
+        font-size: 16px;
+    }
+
+    #ourMain #ourSection #ourCards div:nth-of-type(1) img {
+        height: 150px;
+    }
+
+
+    #ourMain #ourSection #ourCards {
+        padding: 10px;
+        padding-top: 20px;
+    }
+
+
+    #ourMain>h1 {
+
+        font-size: 15px;
+        margin-bottom: -7px;
+    }
+
+    #ourMain>p {
+
+        font-size: 13px;
+        margin-bottom: -20px;
+
+    }
+
+
+    #aboutMain #contSect div p {
+        font-size: 14px;
+        color: gray;
+    }
+
+    #aboutMain>h1 {
+        font-size: 18px;
+    }
+
+
+    #aboutMain>p {
+        font-size: 12px;
+        margin-top: -23px;
+        padding: 20px;
+    }
+
+    #aboutMain #contSect div h2,
+    #aboutMain #contSect div details summary {
+        font-size: 16px;
+    }
+
+    #faqsMain #faqsContent div details summary {
+        font-size: 13px;
+    }
+
+}
+
+
+@media (max-width:340px) {
+    #homeSection #contentSection {
+        margin-top: -80px;
+        margin-left: -33px !important;
+        width: 280px !important;
+    }
+
+    #homeSection #contentSection footer ul li h3 {
+        font-size: 5px;
+    }
+
+    #homeSection #contentSection footer ul li h1 {
+        font-size: 9px;
+        padding: 4px;
+    }
+
+    #ourMain>p {
+
+        font-size: 7px;
+        margin-bottom: -20px;
+
+    }
+
+    #faqsMain>h1 {
+        font-size: 15px;
+    }
+
+    #faqsMain #faqsContent div details summary {
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width:380px) {
+
+    #ourMain #ourSection #ourCards {
+        padding: 10px;
+    }
+
+    #ourMain #ourSection #ourCards div:nth-of-type(2) h1 {
+        font-size: 13px;
+    }
+
+    #ourMain #ourSection #ourCards div:nth-of-type(2) p {
+        font-size: 13px;
+    }
+
+    #ourMain #ourSection #ourCards div:nth-of-type(1) img {
+        height: 130px;
+    }
+
+
+    #ourMain>h1 {
+
+        font-size: 13px;
+        margin-bottom: -7px;
+    }
+
+    #ourMain>p {
+
+        font-size: 11px;
+        margin-bottom: -20px;
+
+    }
+
+}
