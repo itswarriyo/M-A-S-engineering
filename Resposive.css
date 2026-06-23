@@ -2,6 +2,10 @@
     #navBar {
         display: none;
     }
+    #ourMain #ourSection #ourCards {
+
+      margin-top: -39px;
+  }
 }
 
 
@@ -91,6 +95,16 @@
 
 }
 
+
+@media (max-width:1090px) {
+    #ourMain #ourSection #ourCards {
+
+      margin-top: -49px;
+  }
+}
+
+
+
 @media (max-width:1050px) {
 
 
@@ -141,6 +155,10 @@
         grid-template-columns: 1fr;
     }
 
+    #ourMain #ourSection #ourCards {
+    
+      margin-top: -19px;
+    }
 }
 
 
