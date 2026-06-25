@@ -385,7 +385,10 @@ flex-direction: column;
    
 }
 
-
+.loader-content
+{
+    margin-top: -80px;
+}
 }
 
 @media (max-width:595px) 
